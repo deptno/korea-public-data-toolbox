@@ -2,4 +2,5 @@
 .dist/
 .yarn/
 .yarnrc.yml
+yarn-error.log
 .pnp.js
