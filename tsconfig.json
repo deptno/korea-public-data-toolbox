@@ -6,6 +6,7 @@
     "esModuleInterop": true,
     "strictNullChecks": true,
     "jsx": "preserve",
-    "noEmit": true
+    "outDir": "dist",
+    "declaration": true
   }
 }

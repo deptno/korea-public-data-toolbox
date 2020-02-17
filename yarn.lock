@@ -4,6 +4,61 @@
 __metadata:
   version: 4
 
+"@jest/types@npm:^25.1.0":
+  version: 25.1.0
+  resolution: "@jest/types@npm:25.1.0"
+  dependencies:
+    "@types/istanbul-lib-coverage": ^2.0.0
+    "@types/istanbul-reports": ^1.1.1
+    "@types/yargs": ^15.0.0
+    chalk: ^3.0.0
+  checksum: 2/95c6c21ca19d6372ed475427275de12354817aa10ef7519107bb8df73060b76dc6159353107907059975999cf7559ab1f99ad6bbbea1a5e59ba892aa7220f3dd
+  languageName: node
+  linkType: hard
+
+"@types/color-name@npm:^1.1.1":
+  version: 1.1.1
+  resolution: "@types/color-name@npm:1.1.1"
+  checksum: 2/8311db94a9c4ecd247763b81e783ee49d87678b4ce6a7ee502e2bd5cea242b7357804a04855db009f713174bc654cc0c01c7303d40d757e5d710f5ac0368500f
+  languageName: node
+  linkType: hard
+
+"@types/istanbul-lib-coverage@npm:*, @types/istanbul-lib-coverage@npm:^2.0.0":
+  version: 2.0.1
+  resolution: "@types/istanbul-lib-coverage@npm:2.0.1"
+  checksum: 2/9779f90523cd4d0bab0e9a95a43ff152b5a8109504fcd540835114a0201da3522de75e508fc6d1c473490a52a20a708efc1bbb2974e50bbdfbb89789b0dff182
+  languageName: node
+  linkType: hard
+
+"@types/istanbul-lib-report@npm:*":
+  version: 3.0.0
+  resolution: "@types/istanbul-lib-report@npm:3.0.0"
+  dependencies:
+    "@types/istanbul-lib-coverage": "*"
+  checksum: 2/78aa9f859b6d1b2c02387b401e4e42fdec2e26ffede392e544da108abc6aff35c95b40821116ca46006d94c8b405ffd64465c32514549e997b04f8363de1af5e
+  languageName: node
+  linkType: hard
+
+"@types/istanbul-reports@npm:^1.1.1":
+  version: 1.1.1
+  resolution: "@types/istanbul-reports@npm:1.1.1"
+  dependencies:
+    "@types/istanbul-lib-coverage": "*"
+    "@types/istanbul-lib-report": "*"
+  checksum: 2/30445a3b32a8fae4623b5798c17f1e675e58e0deb01b66557c4a15a0f7e25e06039f37287bb3b36ed7c33c4d4f025322315fbb1f6fbf3907c677a7f69841f143
+  languageName: node
+  linkType: hard
+
+"@types/jest@npm:^25.1.2":
+  version: 25.1.2
+  resolution: "@types/jest@npm:25.1.2"
+  dependencies:
+    jest-diff: ^25.1.0
+    pretty-format: ^25.1.0
+  checksum: 2/846d4b589ef640e7d657c6cc8e80f24ef1ab00adeedf4e76303468465655f4e97806b3139ef9219f05cd9bdf019153f204aef251f7c51bbf32801783c9395180
+  languageName: node
+  linkType: hard
+
 "@types/node@npm:*":
   version: 13.7.1
   resolution: "@types/node@npm:13.7.1"
@@ -20,19 +75,161 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/yargs-parser@npm:*":
+  version: 15.0.0
+  resolution: "@types/yargs-parser@npm:15.0.0"
+  checksum: 2/74bfaefde90fb28eace49469fa6c2da63161176cb6dfbd2cfea2c3cb3268e4ca6abe174ae3ff7e633a49a6d6d1a114901c78799a19d0cbc5a9b539585afe6c4f
+  languageName: node
+  linkType: hard
+
+"@types/yargs@npm:^15.0.0":
+  version: 15.0.3
+  resolution: "@types/yargs@npm:15.0.3"
+  dependencies:
+    "@types/yargs-parser": "*"
+  checksum: 2/1643723f78a66ab05fd744208971dde0042b874ed13a741a33baada30278402d809df16c65f3845322030f6b66a5cf14fa8f9bba3bd5d0e8bb01bd05c715bcdd
+  languageName: node
+  linkType: hard
+
+"ansi-regex@npm:^5.0.0":
+  version: 5.0.0
+  resolution: "ansi-regex@npm:5.0.0"
+  checksum: 2/cbd9b5c9dbbb4a949c2a6e93f1c6cc19f0683d8a4724d08d2158627be6d373f0f3ba1f4ada01dce7ee141f2ba2628fbbd29932c7d49926e3b630c7f329f3178b
+  languageName: node
+  linkType: hard
+
+"ansi-styles@npm:^4.0.0, ansi-styles@npm:^4.1.0":
+  version: 4.2.1
+  resolution: "ansi-styles@npm:4.2.1"
+  dependencies:
+    "@types/color-name": ^1.1.1
+    color-convert: ^2.0.1
+  checksum: 2/c8c007d5dab7b4fea064c9ea318114e1f6fc714bb382d061ac09e66bc83c8f3ce12bb6354be01598722c14a5d710af280b7614d269354f80d2535946aefa82f4
+  languageName: node
+  linkType: hard
+
+"chalk@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "chalk@npm:3.0.0"
+  dependencies:
+    ansi-styles: ^4.1.0
+    supports-color: ^7.1.0
+  checksum: 2/4018b0c812880da595d0d7b8159939527b72f58d3370e2fdc1a24d9abd460bab851695d7eca014082f110d5702d1221b05493fec430ccce375de907d50cc48c1
+  languageName: node
+  linkType: hard
+
+"color-convert@npm:^2.0.1":
+  version: 2.0.1
+  resolution: "color-convert@npm:2.0.1"
+  dependencies:
+    color-name: ~1.1.4
+  checksum: 2/3d5d8a011a43012ca11b6d739049ecf2055d95582fd16ec44bf1e685eb0baa5cc652002be8a1dc92b429c8d87418287d0528266a7595cb1ad8a7f4f1d3049df2
+  languageName: node
+  linkType: hard
+
+"color-name@npm:~1.1.4":
+  version: 1.1.4
+  resolution: "color-name@npm:1.1.4"
+  checksum: 2/3e1c9a4dee12eada307436f61614dd11fe300469db2b83f80c8b7a7cd8a1015f0f18dd13403f018927b249003777ff60baba4a03c65f12e6bddc0dfd9642021f
+  languageName: node
+  linkType: hard
+
 "data.go.kr@workspace:.":
   version: 0.0.0-use.local
   resolution: "data.go.kr@workspace:."
   dependencies:
+    "@types/jest": ^25.1.2
     "@types/xml2js": ^0.4.5
+    typescript: ^3.7.5
     xml2js: ^0.4.23
   languageName: unknown
   linkType: soft
+
+"diff-sequences@npm:^25.1.0":
+  version: 25.1.0
+  resolution: "diff-sequences@npm:25.1.0"
+  checksum: 2/f408f221d34ee61197dc9942d3477666396acd09df57db851ec5a18fb3c410c677a683106673bd93417b900788175be538bc50e3599feb895a18b1f5580d7688
+  languageName: node
+  linkType: hard
+
+"has-flag@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "has-flag@npm:4.0.0"
+  checksum: 2/2e5391139d3d287231ccb58659702392f6e3abeac3296fb4721afaff46493f3d9b99a9329ae015dfe973aa206ed5c75f43e86aec0267dce79aa5c2b6e811b3ad
+  languageName: node
+  linkType: hard
+
+"jest-diff@npm:^25.1.0":
+  version: 25.1.0
+  resolution: "jest-diff@npm:25.1.0"
+  dependencies:
+    chalk: ^3.0.0
+    diff-sequences: ^25.1.0
+    jest-get-type: ^25.1.0
+    pretty-format: ^25.1.0
+  checksum: 2/35254786c82c80c5a9ba0936371e0a0d8f5d960d36cca2300430003fdc115224b5c46b4bf1cfdae3287018b9edb6c407f7455ffa8480149f36120f8ba05a9dda
+  languageName: node
+  linkType: hard
+
+"jest-get-type@npm:^25.1.0":
+  version: 25.1.0
+  resolution: "jest-get-type@npm:25.1.0"
+  checksum: 2/b0abdbb4486caa4eadb357138bedd1d363bdee1284f3d76662d99e800ac473a1bd90ad8e42ba12f9a96a7c2452add8fbd9265758f1ea0b98a49a5017ed1d3d5d
+  languageName: node
+  linkType: hard
+
+"pretty-format@npm:^25.1.0":
+  version: 25.1.0
+  resolution: "pretty-format@npm:25.1.0"
+  dependencies:
+    "@jest/types": ^25.1.0
+    ansi-regex: ^5.0.0
+    ansi-styles: ^4.0.0
+    react-is: ^16.12.0
+  checksum: 2/3577f509fdf682f60c671346ba9c50151e2e5d55f9e01022d2e527724195d28347def24ef5b3253eb34533e8689064bc7cd7eded683532984f219894ac8a3d81
+  languageName: node
+  linkType: hard
+
+"react-is@npm:^16.12.0":
+  version: 16.12.0
+  resolution: "react-is@npm:16.12.0"
+  checksum: 2/ddcafd1c3f37118880c7d21720d8481842b1cda8f2724d81a1c103919c5764a697fefd65451396d47ac634ea7850df7829ef0b1094a84b1d18fbfa0c9400b7c9
+  languageName: node
+  linkType: hard
 
 "sax@npm:>=0.6.0":
   version: 1.2.4
   resolution: "sax@npm:1.2.4"
   checksum: 2/9d7668d69105e89e2c1a4b2fdc12c72e1a2f78b825f7b4a8a2ea5cdfebf70920bd17715bed55264c3b3959616a0695f8ad2d098bf6944fbd0953ee9c695dceef
+  languageName: node
+  linkType: hard
+
+"supports-color@npm:^7.1.0":
+  version: 7.1.0
+  resolution: "supports-color@npm:7.1.0"
+  dependencies:
+    has-flag: ^4.0.0
+  checksum: 2/6130f36b2a71f73014a6ef306bbaa5415d8daa5c0294082762a0505e4fb6800b8a9d037b60ed54f0c69cdfc37860034047d6004481c21f22dd43151b5e9334f0
+  languageName: node
+  linkType: hard
+
+typescript@^3.7.5:
+  version: 3.7.5
+  resolution: "typescript@npm:3.7.5"
+  bin:
+    tsc: bin/tsc
+    tsserver: bin/tsserver
+  checksum: 2/48a96fb7dc48746e6b76cf0946545181b0d5013368e510768402f1374e6c6a9f29b00e8ca4f40bc7523a655473f7bc7c55d1c8458970e96b7187bcee1b47e96b
+  languageName: node
+  linkType: hard
+
+"typescript@patch:typescript@^3.7.5#builtin<compat/typescript>":
+  version: 3.7.5
+  resolution: "typescript@patch:typescript@npm%3A3.7.5#builtin<compat/typescript>::version=3.7.5&hash=273569"
+  bin:
+    tsc: bin/tsc
+    tsserver: bin/tsserver
+  checksum: 2/15c69b5cf2b7005de5cfe3120496f4ceb99c628bd69e735b65b2629b4c34cc867a9fd26de6f05d841e08a05727af6d6e2979c39220d2364b5b6c5854fd7d88ff
   languageName: node
   linkType: hard
 
